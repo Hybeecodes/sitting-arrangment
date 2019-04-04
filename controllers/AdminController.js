@@ -325,6 +325,7 @@ const generate_sitting_arrangment = async(req,res) => {
                 const ratio = (enrolled/exam_size);
                 exam_size = exam_size *ratio;
                 let seats = [];
+                seats.
                 let seatArr = Array(exam_size).fill(0).map((e,i) => i+1);
                 console.log(seatArr);
                 students.forEach((student) => {
